@@ -4,12 +4,57 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
-  .before {    
+.before {
     background-image: url("../../../public/assets/before.avif");
-  }
+}
 
-  .after {    
+.after {
     background-image: url("../../../public/assets/after.avif");
-  }
+}
+
+@font-face {
+    font-family: futuraLight;
+    src: url(../../../public/assets/futuralight.ttf);
+}
+
+.circleImage {
+    border-radius: 50%;
+    height: 175px;
+    width: 175px;
+}
+
+.end {
+    margin-top: -60px;
+}
+
+.in {
+    margin-top: 30px
+}
+
+.middle {
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.hvac {
+    background-image: url("../../../public/assets/hvac.avif");
+}
+
+.roofing {
+    background-image: url("../../../public/assets/roofing.avif");
+}
+
+.electrical {
+    background-image: url("../../../public/assets/electrical.avif");
+}
+
+.repair {
+    background-image: url("../../../public/assets/repair.avif");
+}
+
+.remodel {
+    background-image: url("../../../public/assets/remodel.avif");
+}
