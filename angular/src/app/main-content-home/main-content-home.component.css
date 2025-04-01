@@ -1,0 +1,15 @@
+.parallax {
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .before {    
+    background-image: url("../../../public/assets/before.avif");
+  }
+
+  .after {    
+    background-image: url("../../../public/assets/after.avif");
+  }
