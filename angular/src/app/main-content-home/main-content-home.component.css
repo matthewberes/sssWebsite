@@ -39,19 +39,21 @@
     margin-right: 15px;
 }
 
-.overlay {
-    transition: opacity 0.3s;
-    background-color: #232b2b;
-}
-
-.overlay:hover {
-    opacity: 0;
-}
-
 .circleText {
     font-size: 20pt;
     color: #f4f3f2;
-    margin-top: -105px;
+    margin-top: -175px;
+    background-color: rgb(35, 43, 43, 1);
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    display: table-cell;
+    vertical-align: middle;
+    transition: background-color 0.3s;
+}
+
+.circleText:hover {
+    background-color: rgb(35, 43, 43, 0);
 }
 
 .hvac {
