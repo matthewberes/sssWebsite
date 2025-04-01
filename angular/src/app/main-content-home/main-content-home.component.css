@@ -39,8 +39,24 @@
     margin-right: 15px;
 }
 
+.overlay {
+    transition: opacity 0.3s;
+    background-color: #232b2b;
+}
+
+.overlay:hover {
+    opacity: 0;
+}
+
+.circleText {
+    font-size: 20pt;
+    color: #f4f3f2;
+    margin-top: -105px;
+}
+
 .hvac {
     background-image: url("../../../public/assets/hvac.avif");
+    z-index: 1;
 }
 
 .roofing {
