@@ -39,6 +39,7 @@ img {
 .formBox {
     background-color: #28d9c7;
     margin-bottom: 4px;
+    margin-top: 75.949px;
 }
 
 .formFlex {
@@ -50,14 +51,14 @@ img {
 }
 
 .oneLine {
-    width:195px;
+    width: 195px;
     height: 20px;
     margin: 2px;
 }
 
-.multiLine {  
-    margin: 2px;  
-    width:195px;
+.multiLine {
+    margin: 2px;
+    width: 195px;
     height: 80px;
     font-family: Arial, Helvetica, sans-serif;
     color: #232b2b;
@@ -71,7 +72,7 @@ input[type=text] {
 }
 
 input[type=submit] {
-    float: right; 
+    float: right;
     margin-right: 20px;
     border: none;
     background-color: #e13a44;
