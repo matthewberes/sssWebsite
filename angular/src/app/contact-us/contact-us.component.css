@@ -1,0 +1,15 @@
+button {
+    margin: 20px;
+    padding: 15px 50px;
+    font-family: futuraLight;
+    font-size: 12pt;
+    background-color: #178af0;
+    color: #f4f3f2;
+    border: none;
+    transition: background-color 200ms linear;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #88e6dc;
+}
