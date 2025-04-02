@@ -4,6 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-width: 1000px;
 }
 
 .before {
@@ -14,9 +15,39 @@
     background-image: url("../../../public/assets/after.avif");
 }
 
+.parallaxText {
+    text-shadow: 2px 2px rgb(35, 43, 43, 1);
+}
+
+button {
+    display: block; 
+    margin: 0 auto;
+    padding: 15px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    background-color: #178af0;
+    color: #f4f3f2;
+    border: none;
+}
+
 @font-face {
     font-family: futuraLight;
     src: url(../../../public/assets/futuralight.ttf);
+}
+
+@font-face {
+    font-family: skCuriosity;
+    src: url(../../../public/assets/SKCuriosity-Light.ttf);
+    font-stretch: 50%
+}
+
+.circleButtons {
+    height: 325px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    min-width: 1000px;
 }
 
 .circleImage {
@@ -75,4 +106,12 @@
 
 .remodel {
     background-image: url("../../../public/assets/remodel.avif");
+}
+
+.blueFooter {
+    height: 400px;
+    background-color: #082e50;
+    text-align: center;
+    font-family: futuraLight;
+    min-width: 1000px;
 }
