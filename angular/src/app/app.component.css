@@ -3,3 +3,19 @@ app-contact-us {
     bottom: 0px;
     right:0;
 }
+
+@font-face {
+    font-family: futuraLight;
+    src: url(../../public/assets/futuralight.ttf);
+}
+
+@font-face {
+    font-family: skCuriosity;
+    src: url(../../public/assets/SKCuriosity-Light.ttf);
+    font-stretch: 50%
+}
+
+@font-face {
+    font-family: flink;
+    src: url(../../public/assets/FlinkRegular.woff);
+}

@@ -1,0 +1,82 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    min-width: 1000px;
+    background-color: #dbdbdb;
+}
+
+.flex {
+    max-height: 500px;
+    padding: 0px 0px 35px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+p {
+    font-family: futuraLight;
+    font-size: 13pt;
+}
+
+img {
+    border: solid 4px #fafafa;
+    width: auto;
+}
+
+.card {
+    margin-left: 20px;
+    border: solid 4px #fafafa;
+    width: 450px;
+}
+
+.infoBox {
+    background-color: #fafafa;
+}
+
+.formBox {
+    background-color: #28d9c7;
+    margin-bottom: 4px;
+}
+
+.formFlex {
+    margin: 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 150px;
+}
+
+.oneLine {
+    width:195px;
+    height: 20px;
+    margin: 2px;
+}
+
+.multiLine {  
+    margin: 2px;  
+    width:195px;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #232b2b;
+    resize: none;
+}
+
+input[type=text] {
+    border: 2px solid #d2d2d2;
+    background-color: #fafafa;
+    color: #232b2b;
+}
+
+input[type=submit] {
+    float: right; 
+    margin-right: 20px;
+    border: none;
+    background-color: #e13a44;
+    color: #fafafa;
+    padding: 7px 30px;
+    margin-top: -55px;
+    margin-bottom: 50px;
+}

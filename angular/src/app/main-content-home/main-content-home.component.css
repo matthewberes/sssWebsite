@@ -45,17 +45,6 @@ button:hover {
     background-color: #88e6dc;
 }
 
-@font-face {
-    font-family: futuraLight;
-    src: url(../../../public/assets/futuralight.ttf);
-}
-
-@font-face {
-    font-family: skCuriosity;
-    src: url(../../../public/assets/SKCuriosity-Light.ttf);
-    font-stretch: 50%
-}
-
 .circleButtons {
     height: 325px;
     background-color: #fafafa;
@@ -136,4 +125,5 @@ button:hover {
     text-align: center;
     border-bottom: solid 2px #d2d2d2;
     background-color: #fafafa;
+    min-width: 1000px;
 }
