@@ -4,7 +4,8 @@ import { MainContentFormComponent } from './main-content-form/main-content-form.
 import { MainContentAboutComponent } from './main-content-about/main-content-about.component';
 
 export const routes: Routes = [
-    {path: '', component: MainContentHomeComponent},
+    { path: '', redirectTo: '/home', pathMatch: 'full' },
+    {path: 'home', component: MainContentHomeComponent},
     {path: 'maintenance-request', component: MainContentFormComponent},
     {path: 'about-us', component: MainContentAboutComponent}
 ];

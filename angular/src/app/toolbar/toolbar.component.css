@@ -9,3 +9,8 @@ p:hover {
     background-color: #86c1f5;
     color: #f4f3f2;
 }
+
+.curr {
+    background-color: #082e50;
+    color: #f4f3f2
+}
