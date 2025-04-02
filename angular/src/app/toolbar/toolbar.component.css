@@ -2,10 +2,12 @@ p {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10pt;
+    transition: background-color 300ms linear;
     transition: background-color color 300ms linear;
 }
 
 p:hover {
+    cursor: pointer;
     background-color: #86c1f5;
     color: #f4f3f2;
 }
