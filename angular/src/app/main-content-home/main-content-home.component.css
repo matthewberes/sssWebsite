@@ -16,11 +16,20 @@
 }
 
 .parallaxText {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding-top: 165px;
+    font-family: skCuriosity;
+    font-size: 30pt;
+    text-align: center;
+    color: #f4f3f2;
+    width: 850px;
     text-shadow: 2px 2px rgb(35, 43, 43, 1);
 }
 
 button {
-    display: block; 
+    display: block;
     margin: 0 auto;
     padding: 15px 50px;
     font-family: Arial, Helvetica, sans-serif;
@@ -43,11 +52,12 @@ button {
 
 .circleButtons {
     height: 325px;
-    background-color: #ffffff;
+    background-color: #fafafa;
     text-align: center;
     font-size: 30px;
     font-family: sans-serif;
     min-width: 1000px;
+    padding-bottom: 40px;
 }
 
 .circleImage {
@@ -114,4 +124,10 @@ button {
     text-align: center;
     font-family: futuraLight;
     min-width: 1000px;
+}
+
+.serviceArea {
+    text-align: center;
+    border-bottom: solid 2px #d2d2d2;
+    background-color: #fafafa;
 }
