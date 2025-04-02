@@ -1,1 +1,46 @@
-<p>main-content-form works!</p>
+<div class="body">
+    <div style="height: 50px;"></div>
+    <form>
+        <div class="container">
+            <p class="header">Contact Us</p>
+            <div class="grid">
+                <div>
+                    <label class="gridLabel">Date of Request</label>
+                    <input class="item">
+                </div>
+                <div>
+                    <label class="gridLabel">First and Last Name</label>
+                    <input class="item">
+                </div>
+                <div>
+                    <label class="gridLabel">Email *</label>
+                    <input class="item">
+                </div>
+                <div>
+                    <label class="gridLabel">Phone Number *</label>
+                    <input class="item">
+                </div>
+                <div>
+                    <label class="gridLabel">Work Location</label>
+                    <input class="item">
+                </div>
+                <div></div>
+                <div class="wide">
+                    <label class="gridLabel">Description of work/repair</label>
+                    <textarea class="item"></textarea>
+                </div>
+            </div>
+            <div class="radioButtons">
+                <label class="gridLabel">Requested Priority *</label>
+                <mat-radio-group aria-label="Select an option">
+                    <mat-radio-button value="1">Must be done within 24 hours</mat-radio-button>
+                    <mat-radio-button value="2">Medium - Within the week</mat-radio-button>
+                    <mat-radio-button value="3">Low - When you get a chance</mat-radio-button>
+                  </mat-radio-group>
+            </div>
+            <input type="submit">
+            <div style="height: 75px;"></div>
+        </div>
+        <div style="height: 75px;"></div>
+    </form>
+</div>

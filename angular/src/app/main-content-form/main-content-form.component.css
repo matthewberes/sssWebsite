@@ -1,0 +1,92 @@
+.body {
+    background-image: url("../../../public/assets/maintenance-request.avif");
+    height: auto;
+    width: auto;
+    display: block;
+    min-width: 1000px;
+}
+
+.container {
+    background-color: #fafafa;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 40px;
+    column-gap: 50px;
+}
+
+.header {
+    width: 667px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    font-size: 24pt;
+    font-family: flink;
+}
+
+.item {
+    background-color: #ffecf1;
+    border: none;
+    border-bottom: 2px blue solid;
+}
+
+.wide {
+    grid-column: span 2;
+}
+
+.gridLabel { 
+    display: block;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+textarea {
+    width: 660px;
+    height: 90px;
+    resize: none;
+}
+
+p, label {
+    color: blue;
+    font-style: italic;
+}
+
+.radioButtons {
+    width: 667px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+mat-radio-button {
+    display: block;
+    color: blue;
+    font-style: italic;
+}
+
+input[type=submit] {
+    background-color: blue;
+    color: #fafafa;
+    border: solid blue 4px;
+    display: block;
+    margin: 30px auto;
+    width: 667px;
+    height: 50px;
+    font-size: 12pt;
+    font-style: italic;
+    transition: border 200ms linear;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;    
+    border: solid #ffdae4 4px;
+}
