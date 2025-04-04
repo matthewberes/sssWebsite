@@ -1,22 +1,101 @@
+.flex {
+  height: 200px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.socials {
+  margin-top: 45px;
+}
+
+.logo {
+  margin: auto;
+}
+
+.contact {
+  text-align: right;
+  font-size: 14pt;
+  margin-top: 25px;
+  font-family: flink;
+}
+
+.hamburger {
+  margin: 23px 30px;
+}
+
+.material-symbols-outlined {
+  font-size: 60pt;
+}
 
 .fa {
-    padding: 10px;
-    font-size: 20px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+@media only screen and (max-width: 999.9px) {
+  .flex {
+    height: 250px;
+    width: 1000px;
+    justify-content: space-between;
   }
-  
-  .fa:hover {
-    opacity: 0.7;
+
+  .socials {
+    display: none;
   }
-  
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
+
+  .logo {
+    margin: 10px;
   }
-  
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
+
+  .contact {
+    display: none;
   }
+
+  .contactMobile {
+    margin-left: auto;
+    margin-right: 20px;
+    text-align: right;
+    margin-top: -70px;
+    font-size: 28pt;
+    font-family: flink;
+  }
+
+  app-toolbar {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .hamburger {
+    display: none;
+  }
+
+  .contactMobile {
+    display: none;
+  }
+
+  .mobile {
+    display: none;
+  }
+}

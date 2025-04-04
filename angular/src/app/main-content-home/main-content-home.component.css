@@ -121,9 +121,69 @@ button:hover {
     min-width: 1000px;
 }
 
+.blueFooterHeader {
+    margin: 0;
+    padding-top: 45px;
+    font-size: 36px;
+    color: #f4f3f2;
+}
+
+.blueFooterText {
+    font-size: 18px;
+    color: #f4f3f2;
+    max-width: 575px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .serviceArea {
     text-align: center;
     border-bottom: solid 2px #d2d2d2;
     background-color: #fafafa;
     min-width: 1000px;
+}
+
+@media only screen and (max-width: 999.9px) {
+    .parallax {
+        background-attachment: unset;
+        min-width: none;
+    }
+
+    .parallaxText {
+        font-size: 72pt;
+    }
+
+    button {
+        font-size: 32pt;
+        padding: 20px 5px;
+        margin-top: -50px;
+    }
+
+    .circleButtons {
+        display: none;
+    }
+
+    .after,
+    .before,
+    .blueFooter {
+        height: 1000px;
+    }
+
+    .blueFooterHeader {
+        font-size: 36pt;
+    }
+
+    .blueFooterText {
+        font-size: 26pt;
+    }
+
+    .desktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .mobile {
+        display: none;
+    }
 }
