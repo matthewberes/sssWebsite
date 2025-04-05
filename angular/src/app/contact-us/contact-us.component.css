@@ -13,3 +13,26 @@ button:hover {
     cursor: pointer;
     background-color: #88e6dc;
 }
+
+@media only screen and (max-width: 999.9px) {
+    .desktop {
+        display: none;
+    }
+
+    button {
+        border-radius: 50%;
+        padding: 0px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .mobile {
+        font-size: 30pt;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .mobile {
+        display: none;
+    }
+}
