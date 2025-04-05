@@ -4,6 +4,19 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
 </head>
 
+<div class="mobileMenu" *ngIf="menuOpened">
+    <div class="menuBlur"></div>
+    <div class="menuBox">
+        <p class="exit" (click)="closeMenu()">X</p>
+        <p class="menuOption top" [ngClass]="{'selected': path == '#/home'}" (click)="onClickMobile('home')"
+            tabindex="0">Home</p>
+        <p class="menuOption" [ngClass]="{'selected': path == '#/maintenance-request'}"
+            (click)="onClickMobile('maintenance-request')" tabindex="0">Maintenance Request</p>
+        <p class="menuOption" [ngClass]="{'selected': path == '#/about-us'}" (click)="onClickMobile('about-us')"
+            tabindex="0">About Us</p>
+    </div>
+</div>
+
 <div class="flex">
     <div class="socials">
         <a href="#" class="fa fa-facebook" style="margin-left: 65px; margin-right: 2px;"></a>
@@ -16,7 +29,7 @@
         <p style="margin-bottom: 0px;">(409)-256-8334</p>
         <p style="margin-top: 0px;">info&#64;SandStarServices.com</p>
     </div>
-    <div class="hamburger">
+    <div class="hamburger" (click)="openMenu()">
         <span class="material-symbols-outlined">
             menu
         </span>

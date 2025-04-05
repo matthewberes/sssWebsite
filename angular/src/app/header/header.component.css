@@ -31,6 +31,52 @@
   font-size: 60pt;
 }
 
+.mobileMenu {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+}
+
+.menuBlur {
+  height: 100%;
+  width: 100%;
+  width: 20%;
+  background-color: black;
+  opacity: .5;
+}
+
+.menuBox {
+  height: 100%;
+  width: 100%;
+  width: 80%;
+  background-color: #f4f3f2;
+}
+
+.exit {
+  float: right;
+  margin: 15px 35px;
+  font-size: 60pt;
+  font-family: flink;
+}
+
+.menuOption {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  font-size: 32pt;
+  font-family: flink;
+}
+
+.top {
+  margin-top: 200px;
+}
+
+.selected {
+  color: red;
+}
+
 .fa {
   padding: 10px;
   font-size: 20px;
