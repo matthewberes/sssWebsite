@@ -6,8 +6,8 @@ import { MainContentContactComponent } from './main-content-contact/main-content
 
 export const routes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
-    {path: 'home', component: MainContentHomeComponent},
-    {path: 'maintenance-request', component: MainContentFormComponent},
-    {path: 'about-us', component: MainContentAboutComponent},
-    {path: 'contact', component: MainContentContactComponent}
+    { path: 'home', component: MainContentHomeComponent, title: "Home | Sandstarservices" },
+    { path: 'maintenance-request', component: MainContentFormComponent, title: "Maintenance Request | Sandstarservices" },
+    { path: 'about-us', component: MainContentAboutComponent, title: "About Us | Sandstarservices" },
+    { path: 'contact', component: MainContentContactComponent, title: "Contact | Sandstarservices" }
 ];

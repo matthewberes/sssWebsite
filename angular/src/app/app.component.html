@@ -2,5 +2,5 @@
   <app-header></app-header>
   <router-outlet />
   <app-footer></app-footer>
-  <app-contact-us></app-contact-us>
+  <app-contact-us *ngIf="path != '#/contact'"></app-contact-us>
 </div>
