@@ -36,6 +36,25 @@ img {
     background-color: #fafafa;
 }
 
+.infoHeader {
+    margin-bottom: 0px;
+    margin-left: 15px;
+    font-size: 16pt;
+    color: #178af0;
+}
+
+.email {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+.phone {
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
 .formBox {
     background-color: #28d9c7;
     margin-bottom: 4px;
@@ -63,12 +82,15 @@ img {
     font-family: Arial, Helvetica, sans-serif;
     color: #232b2b;
     resize: none;
+    border: 2px solid #d2d2d2;
+    text-indent: 10px;
 }
 
 input[type=text] {
     border: 2px solid #d2d2d2;
     background-color: #fafafa;
     color: #232b2b;
+    text-indent: 10px;
 }
 
 input[type=submit] {
@@ -80,4 +102,121 @@ input[type=submit] {
     padding: 7px 30px;
     margin-top: -55px;
     margin-bottom: 50px;
+}
+
+.container {
+    border-top: solid 2px #d2d2d2;
+    border-bottom: solid 2px #d2d2d2;
+    min-width: 1000px;
+}
+
+.contactHeader {
+    margin-left: 35px;
+    margin-top: 0px;
+    padding-top: 20px;
+    font-size: 24pt;
+    color: #178af0;
+    margin-bottom: 10px;
+}
+
+.blocker {
+    flex-basis: 100%;
+    width: 0;
+}
+
+.hRule {
+    margin: 20px;
+}
+
+@media only screen and (max-width: 999.9px) {
+    .flex {
+        max-height: none;
+        width: 100%;
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contactHeader {
+        font-size: 60pt;
+    }
+
+    img {
+        margin-left: 40px;
+        margin-right: 40px;
+        width: 900px;
+    }
+
+    .card {
+        margin-left: 40px;
+        margin-right: 40px;
+        width: 900px;
+    }
+
+    body {
+        margin: 0px;
+    }
+
+    .infoBox {
+        margin-top: 30px;
+    }
+
+    .infoHeader {
+        font-size: 56pt;
+        margin-left: 50px;
+    }
+
+    .infoText {
+        font-size: 40pt;
+        margin-left: 50px;
+    }
+
+    .email {
+        margin-top: 30px;
+    }
+
+    .phone {
+        margin-bottom: 50px;
+    }
+
+    .formBox {
+        margin-top: 30px;
+    }
+
+    .formFlex {
+        height: auto;
+    }
+
+    .blocker {
+        display: none;
+    }
+
+    .hRule {
+        display: none;
+    }
+
+    input[type=text] {
+        width: 835px;
+        height: 100px;
+        margin: 10px;
+        font-size: 36pt;
+    }
+
+    .multiLine {
+        margin: 10px;
+        width: 835px;
+        height: 300px;
+        font-size: 36pt;
+    }
+
+    input[type=submit] {
+        float: none;
+        width: 842px;
+        height: 100px;
+        margin: 10px;
+        font-size: 36pt;
+        margin-left: 30px;
+        border: 2px solid #e13a44;
+        margin-bottom: 80px;
+    }
 }

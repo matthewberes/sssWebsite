@@ -1,22 +1,23 @@
-<div style="border-top: solid 2px #d2d2d2; border-bottom: solid 2px #d2d2d2;">
+<div class="container">
 
     <body>
-        <p
-            style="margin-left: 35px; margin-top: 0px; padding-top: 20px; font-size: 24pt; color: #178af0; margin-bottom: 10px;">
+        <p class="contactHeader">
             Contact</p>
         <div class="flex">
             <div>
                 <img src="assets/contact-us.avif" alt="image of drywall work">
             </div>
             <div class="card infoBox">
-                <p style="margin-bottom: 0px; margin-left: 15px; font-size: 16pt; color: #178af0;">Sand Star Services
+                <p class="infoHeader">Sand Star Services
                 </p>
-                <p style="margin-top: 10px; margin-bottom: 0px; margin-left: 15px;">info&#64;sandstarservices.com</p>
-                <p style="margin-top: 0px; margin-left: 15px; margin-bottom: 30px;">Tel: (409)-256-8334</p>
+                <p class="infoText email">
+                    info&#64;sandstarservices.com</p>
+                <p class="infoText phone">Tel: (409)-256-8334
+                </p>
             </div>
 
             <div class="card formBox">
-                <hr style="margin: 20px;">
+                <hr class="hRule">
                 <form [formGroup]="contactForm">
                     <div class="formFlex">
                         <div>
@@ -28,7 +29,7 @@
                         <div>
                             <input class="oneLine" type="text" formControlName="phone" placeholder="Phone">
                         </div>
-                        <div style="flex-basis: 100%; width: 0;"></div>
+                        <div class="blocker"></div>
                         <div>
                             <textarea class="multiLine" formControlName="message" placeholder="Message"></textarea>
                         </div>
