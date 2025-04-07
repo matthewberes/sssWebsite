@@ -4,13 +4,11 @@ import { MatRadioModule } from '@angular/material/radio';
 import { RECAPTCHA_SETTINGS, RecaptchaFormsModule, RecaptchaModule, RecaptchaSettings } from 'ng-recaptcha';
 
 import { environment } from '../../environments/environment';
+import { NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-main-content-form',
-  imports: [MatRadioModule,
-    FormsModule,
-    RecaptchaModule,
-    RecaptchaFormsModule],
+  imports: [MatRadioModule, FormsModule, RecaptchaModule, RecaptchaFormsModule, NgIf],
   providers: [
     {
       provide: RECAPTCHA_SETTINGS,
