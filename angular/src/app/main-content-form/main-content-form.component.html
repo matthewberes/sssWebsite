@@ -44,6 +44,13 @@
                     </mat-radio-button>
                 </mat-radio-group>
             </div>
+            <div class="captcha">
+                <re-captcha id="recaptcha" name="recaptcha" #recaptcha="ngModel" [(ngModel)]="token" required
+                    [class.is-invalid]="recaptcha.invalid && (recaptcha.dirty || recaptcha.touched)"></re-captcha>
+                <div *ngIf="recaptcha.invalid && (recaptcha.dirty || recaptcha.touched)" class="invalid-feedback">
+                    <div *ngIf="recaptcha.errors?.['required']">This field is required.</div>
+                </div>
+            </div>
             <input type="submit">
             <div style="height: 75px;"></div>
         </div>

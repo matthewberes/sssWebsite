@@ -94,6 +94,12 @@ input[type=submit]:hover {
     border: solid #ffdae4 4px;
 }
 
+.captcha {
+    width: 667px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media only screen and (max-width: 999.9px) {
     .container {
         width: 900px;
@@ -142,5 +148,13 @@ input[type=submit]:hover {
         width: 325px;
         font-size: 40pt;
         margin-bottom: 60px;
+    }
+
+    .captcha {
+        margin-top: 20px;
+        display: block;
+        width: auto;
+        margin-left: 33%;
+        margin-right: 33%;
     }
 }

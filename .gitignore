@@ -1,1 +1,3 @@
 angular/.vscode/settings.json
+angular/src/environments/environment.development.ts
+angular/src/environments/environment.ts
