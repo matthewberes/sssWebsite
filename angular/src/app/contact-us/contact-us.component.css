@@ -22,12 +22,13 @@ button:hover {
     button {
         border-radius: 50%;
         padding: 0px;
-        width: 100px;
-        height: 100px;
+        margin: 50px;
+        width: 200px;
+        height: 200px;
     }
 
     .mobile {
-        font-size: 30pt;
+        font-size: 60pt;
     }
 }
 

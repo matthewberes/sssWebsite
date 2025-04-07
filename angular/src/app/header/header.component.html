@@ -5,7 +5,7 @@
 </head>
 
 <div class="mobileMenu" *ngIf="menuOpened">
-    <div class="menuBlur"></div>
+    <div class="menuBlur" (click)="closeMenu()"></div>
     <div class="menuBox">
         <p class="exit" (click)="closeMenu()">X</p>
         <p class="menuOption top" [ngClass]="{'selected': path == '#/home'}" (click)="onClickMobile('home')"
