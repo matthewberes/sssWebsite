@@ -1,5 +1,8 @@
 .body {
     background-image: url("../../../public/assets/maintenance-request.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: auto;
     width: auto;
     display: block;
@@ -40,7 +43,7 @@
     grid-column: span 2;
 }
 
-.gridLabel { 
+.gridLabel {
     display: block;
 }
 
@@ -55,7 +58,8 @@ textarea {
     resize: none;
 }
 
-p, label {
+p,
+label {
     color: blue;
     font-style: italic;
 }
@@ -87,6 +91,6 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    cursor: pointer;    
+    cursor: pointer;
     border: solid #ffdae4 4px;
 }

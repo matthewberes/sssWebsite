@@ -16,6 +16,10 @@
   margin: auto;
 }
 
+.logo:hover {
+  cursor: pointer;
+}
+
 .contact {
   text-align: right;
   font-size: 14pt;

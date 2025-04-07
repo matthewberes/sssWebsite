@@ -84,6 +84,7 @@ img {
     resize: none;
     border: 2px solid #d2d2d2;
     text-indent: 10px;
+    box-sizing: border-box;
 }
 
 input[type=text] {
@@ -91,9 +92,10 @@ input[type=text] {
     background-color: #fafafa;
     color: #232b2b;
     text-indent: 10px;
+    box-sizing: border-box;
 }
 
-input[type=submit] {
+.desktop {
     float: right;
     margin-right: 20px;
     border: none;
@@ -102,6 +104,17 @@ input[type=submit] {
     padding: 7px 30px;
     margin-top: -55px;
     margin-bottom: 50px;
+}
+
+.mobile {
+    background-color: #e13a44;
+    width: 800px;
+    height: 100px;
+    margin: 10px;
+    margin-bottom: 30px;
+    font-size: 36pt;
+    border: 2px solid #e13a44;
+    box-sizing: border-box;
 }
 
 .container {
@@ -185,6 +198,8 @@ input[type=submit] {
 
     .formFlex {
         height: auto;
+        align-items: center;
+        justify-content: center;
     }
 
     .blocker {
@@ -196,7 +211,7 @@ input[type=submit] {
     }
 
     input[type=text] {
-        width: 835px;
+        width: 800px;
         height: 100px;
         margin: 10px;
         font-size: 36pt;
@@ -204,19 +219,19 @@ input[type=submit] {
 
     .multiLine {
         margin: 10px;
-        width: 835px;
+        width: 800px;
         height: 300px;
         font-size: 36pt;
+        padding-top: 10px;
     }
 
-    input[type=submit] {
-        float: none;
-        width: 842px;
-        height: 100px;
-        margin: 10px;
-        font-size: 36pt;
-        margin-left: 30px;
-        border: 2px solid #e13a44;
-        margin-bottom: 80px;
+    .desktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .mobile {
+        display: none;
     }
 }
