@@ -73,7 +73,6 @@ label {
 
 mat-radio-button {
     display: block;
-    color: blue;
     font-style: italic;
 }
 
@@ -93,4 +92,55 @@ input[type=submit] {
 input[type=submit]:hover {
     cursor: pointer;
     border: solid #ffdae4 4px;
+}
+
+@media only screen and (max-width: 999.9px) {
+    .container {
+        width: 900px;
+    }
+
+    .grid {
+        display: block;
+        grid-template-columns: auto;
+    }
+
+    textarea,
+    input {
+        height: 100px;
+        margin-bottom: 5px;
+    }
+
+    .header,
+    .gridLabel,
+    textarea,
+    input,
+    .radioButtons {
+        display: block;
+        width: 825px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header {
+        font-size: 48pt;
+    }
+
+    .gridLabel {
+        font-size: 36pt;
+    }
+
+    mat-radio-button {
+        font-size: 30pt;
+    }
+
+    .radioLabel {
+        font-size: 30pt;
+    }
+
+    input[type=submit] {
+        height: 120px;
+        width: 325px;
+        font-size: 40pt;
+        margin-bottom: 60px;
+    }
 }
