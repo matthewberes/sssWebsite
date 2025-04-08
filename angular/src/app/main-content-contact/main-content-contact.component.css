@@ -84,6 +84,7 @@ img {
     resize: none;
     border: 2px solid #d2d2d2;
     text-indent: 10px;
+    padding-top: 10px;
 }
 
 input[type=text] {
@@ -91,7 +92,7 @@ input[type=text] {
     background-color: #fafafa;
     color: #232b2b;
     text-indent: 10px;
-    height: 21px;
+    height: 23.9px;
 }
 
 .desktop {
@@ -101,8 +102,14 @@ input[type=text] {
     background-color: #e13a44;
     color: #fafafa;
     padding: 7px 30px;
-    margin-top: -55px;
-    margin-bottom: 50px;
+    margin-top: -50px;
+    margin-bottom: 45px;
+    transition: background-color 200ms linear;
+}
+
+.desktop:hover {
+    cursor: pointer;
+    background-color: #eb9499;
 }
 
 .mobile {
@@ -222,7 +229,6 @@ input[type=text] {
         width: 800px;
         height: 300px;
         font-size: 36pt;
-        padding-top: 10px;
         box-sizing: border-box;
     }
 
