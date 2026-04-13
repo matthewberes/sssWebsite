@@ -47,7 +47,8 @@
     display: block;
 }
 
-input {
+input,
+select {
     width: 300px;
     height: 30px;
 }

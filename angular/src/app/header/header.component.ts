@@ -16,11 +16,6 @@ export class HeaderComponent {
   path: string = "";
 
   ngOnInit(): void {
-    if (window.location.hash == "") {
-      this.path = "#/home";
-    } else {
-      this.path = window.location.hash;
-    }
     this.router.events
       .pipe(filter((e): e is NavigationEnd => e instanceof NavigationEnd))
       .subscribe((ev: NavigationEnd) => {
