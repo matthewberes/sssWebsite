@@ -24,7 +24,13 @@
                     <label class="gridLabel">Work Location</label>
                     <input class="item">
                 </div>
-                <div></div>
+                <div>
+                    <label class="gridLabel">Property Type</label>
+                    <select class="item" [(ngModel)]="typeParam" name="propertyType">
+                        <option value="residential">Residential</option>
+                        <option value="commercial">Commercial</option>
+                    </select>
+                </div>
                 <div class="wide">
                     <label class="gridLabel">Description of work/repair</label>
                     <textarea class="item"></textarea>

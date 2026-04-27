@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { MatRadioModule } from '@angular/material/radio';
 import { RECAPTCHA_SETTINGS, RecaptchaFormsModule, RecaptchaModule, RecaptchaSettings } from 'ng-recaptcha';
 
 import { environment } from '../../environments/environment.development';
 import { NgIf } from '@angular/common';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-main-content-form',
@@ -21,11 +23,13 @@ import { NgIf } from '@angular/common';
   styleUrl: './main-content-form.component.css'
 })
 export class MainContentFormComponent {
-
+  typeParam: string | null = null;
   token: string | undefined;
 
-  constructor() {
+  constructor(private router: Router) {
     this.token = undefined;
+    const nav = this.router.getCurrentNavigation();
+    this.typeParam = nav?.extras.state?.['type'] ?? null;
   }
 
 }
