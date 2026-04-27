@@ -10,8 +10,10 @@ import { Router } from '@angular/router';
 export class MainContentHomeComponent {
   constructor(private router: Router) { }
 
-  onClick() {    
-    this.router.navigate(['/maintenance-request']);
+  onClick(param?: string) {
+    this.router.navigate(['/maintenance-request'], {
+      state: param ? { type: param } : undefined
+    });
   }
 
 }
