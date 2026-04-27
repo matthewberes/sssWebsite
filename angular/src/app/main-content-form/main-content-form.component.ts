@@ -3,7 +3,7 @@ import { FormsModule } from '@angular/forms';
 import { MatRadioModule } from '@angular/material/radio';
 import { RECAPTCHA_SETTINGS, RecaptchaFormsModule, RecaptchaModule, RecaptchaSettings } from 'ng-recaptcha';
 
-import { environment } from '../../environments/environment';
+import { environment } from '../../environments/environment.development';
 import { NgIf } from '@angular/common';
 
 @Component({
