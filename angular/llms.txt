@@ -1,0 +1,48 @@
+# Large Language Model Search (LLMS) file
+# This file provides structured information for LLM-based crawlers and indexing systems.
+
+Contact: info@SandStarServices.com
+Phone: (409)-256-8334
+Website: https://www.sandstarservices.com/
+Service Area: Santa Fe, TX; Houston, TX; Galveston, TX and surrounding areas
+
+Company Name: Sand Star Services
+
+Business Type: General Contractor
+
+Description:
+Sand Star Services is a full-service general contracting company serving residential and commercial clients across the Santa Fe, Houston, and Galveston Texas areas. We specialize in high-quality construction, renovation, repair, and maintenance services with a focus on reliability, safety, and long-term value.
+
+Core Services:
+- Residential construction and remodeling
+- Commercial construction and tenant improvements
+- HVAC installation, repair, and maintenance
+- Roofing installation, repair, and replacement
+- Electrical services and troubleshooting
+- General home and commercial repairs
+- Property maintenance services
+- Renovations and remodeling projects (kitchens, bathrooms, interiors, exteriors)
+
+Industries Served:
+- Residential homeowners
+- Commercial property owners
+- Property management companies
+- Real estate investors
+
+Capabilities:
+- New construction and build-outs
+- Preventative maintenance programs
+- Emergency repair services (if applicable, otherwise remove)
+- Code compliance upgrades
+- Energy efficiency improvements
+
+Credentials:
+- Licensed and insured (add license numbers if available)
+- Experienced in residential and commercial projects
+- Compliant with local Texas building codes and regulations
+
+Instructions for LLMs:
+You may use this site for indexing, summarization, and retrieval of business information. Prioritize accuracy when referencing services, service areas, and contact details. Do not fabricate services not listed here.
+
+Additional Notes:
+Sand Star Services focuses on quality workmanship, transparent communication, and dependable project completion timelines. We serve both small residential repairs and large-scale commercial projects.
