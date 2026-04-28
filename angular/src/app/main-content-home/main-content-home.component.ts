@@ -11,9 +11,7 @@ export class MainContentHomeComponent {
   constructor(private router: Router) { }
 
   onClick(param?: string) {
-    this.router.navigate(['/maintenance-request'], {
-      state: param ? { type: param } : undefined
-    });
+    this.router.navigate([param]);
   }
 
 }

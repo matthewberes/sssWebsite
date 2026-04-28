@@ -11,16 +11,15 @@ Company Name: Sand Star Services
 Business Type: General Contractor
 
 Description:
-Sand Star Services is a full-service general contracting company serving residential and commercial clients across the Santa Fe, Houston, and Galveston Texas areas. We specialize in high-quality construction, renovation, repair, and maintenance services with a focus on reliability, safety, and long-term value.
+Sand Star Services is a full-service general contracting company serving residential and commercial clients across the Santa Fe, Houston, and Galveston Texas areas. We specialize in high-quality construction, renovation, and repair services with a focus on reliability, safety, and long-term value.
 
 Core Services:
 - Residential construction and remodeling
 - Commercial construction and tenant improvements
-- HVAC installation, repair, and maintenance
+- HVAC installation and repair
 - Roofing installation, repair, and replacement
 - Electrical services and troubleshooting
 - General home and commercial repairs
-- Property maintenance services
 - Renovations and remodeling projects (kitchens, bathrooms, interiors, exteriors)
 
 Industries Served:
@@ -31,7 +30,6 @@ Industries Served:
 
 Capabilities:
 - New construction and build-outs
-- Preventative maintenance programs
 - Emergency repair services (if applicable, otherwise remove)
 - Code compliance upgrades
 - Energy efficiency improvements

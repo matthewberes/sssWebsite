@@ -10,8 +10,8 @@
         <p class="exit" (click)="closeMenu()">X</p>
         <p class="menuOption top" [ngClass]="{'selected': path == '#/home'}" (click)="onClickMobile('home')"
             tabindex="0">Home</p>
-        <p class="menuOption" [ngClass]="{'selected': path == '#/maintenance-request'}"
-            (click)="onClickMobile('maintenance-request')" tabindex="0">Maintenance Request</p>
+        <p class="menuOption" [ngClass]="{'selected': path == '#/assessment-request'}"
+            (click)="onClickMobile('assessment-request')" tabindex="0">Schedule an Onsite Assessment</p>
         <p class="menuOption" [ngClass]="{'selected': path == '#/about-us'}" (click)="onClickMobile('about-us')"
             tabindex="0">About Us</p>
     </div>

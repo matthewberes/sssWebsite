@@ -1,6 +1,9 @@
 <div
     style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 5px; text-align: center; width: 800px; margin-left: auto; margin-right: auto; margin-top: -30px;">
-    <p [ngClass]="{'curr': path == '#/home'}" (click)="onClick('home')" tabindex="0" (keyup.enter)="onClick('home')">Home</p>
-    <p [ngClass]="{'curr': path == '#/maintenance-request'}" (click)="onClick('maintenance-request')" tabindex="0" (keyup.enter)="onClick('maintenance-request')">Maintenance Request</p>
-    <p [ngClass]="{'curr': path == '#/about-us'}" (click)="onClick('about-us')" tabindex="0" (keyup.enter)="onClick('about-us')">About us</p>
+    <p [ngClass]="{'curr': path == '#/home'}" (click)="onClick('home')" tabindex="0" (keyup.enter)="onClick('home')">
+        Home</p>
+    <p [ngClass]="{'curr': path == '#/assessment-request'}" (click)="onClick('assessment-request')" tabindex="0"
+        (keyup.enter)="onClick('assessment-request')">Schedule an Onsite Assessment</p>
+    <p [ngClass]="{'curr': path == '#/about-us'}" (click)="onClick('about-us')" tabindex="0"
+        (keyup.enter)="onClick('about-us')">About us</p>
 </div>

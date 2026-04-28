@@ -16,7 +16,7 @@ import { HvacComponent } from './hvac/hvac.component';
 export const routes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: 'home', component: MainContentHomeComponent, title: "Home | Sandstarservices" },
-    { path: 'maintenance-request', component: MainContentFormComponent, title: "Maintenance Request | Sandstarservices" },
+    { path: 'assessment-request', component: MainContentFormComponent, title: "Schedule an Onsite Assessment | Sandstarservices" },
     { path: 'about-us', component: MainContentAboutComponent, title: "About Us | Sandstarservices" },
     { path: 'contact', component: MainContentContactComponent, title: "Contact | Sandstarservices" },
     { path: "commercial", component: CommercialComponent, title: "Commercial | Sandstarservices" },

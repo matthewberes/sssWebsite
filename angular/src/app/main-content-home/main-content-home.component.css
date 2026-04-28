@@ -63,6 +63,25 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 1000px;
+    position: relative;
+    z-index: 0;
+}
+
+.parallax::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(20, 20, 20, 0.45);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.parallax>* {
+    position: relative;
+    z-index: 2;
 }
 
 .before {
@@ -77,8 +96,8 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
-    padding-top: 165px;
-    font-family: skCuriosity;
+    padding-top: 70px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     font-size: 30pt;
     text-align: center;
     color: #f4f3f2;
@@ -148,6 +167,7 @@ button:hover {
 
 .circleText:hover {
     background-color: rgb(35, 43, 43, 0);
+    cursor: pointer;
 }
 
 .hvac {
@@ -199,6 +219,7 @@ button:hover {
     border-bottom: solid 2px #d2d2d2;
     background-color: #fafafa;
     min-width: 1000px;
+    padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 999.9px) {
@@ -222,13 +243,14 @@ button:hover {
     }
 
     .parallaxText {
+        padding-top: 250px;
         font-size: 72pt;
     }
 
     button {
-        font-size: 32pt;
-        padding: 20px 5px;
-        margin-top: -50px;
+        font-size: 34pt;
+        padding: 20px;
+        margin-top: -40px;
     }
 
     .circleButtons {
