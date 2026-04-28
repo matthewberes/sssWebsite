@@ -27,6 +27,7 @@
     background-position: bottom;
     background-repeat: no-repeat;
     font-size: 48pt;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .service-box:hover {
