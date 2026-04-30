@@ -1,6 +1,7 @@
 .flex {
     display: flex;
     min-width: 1000px;
+    background-color: #dbdbdb;
 }
 
 .picture {

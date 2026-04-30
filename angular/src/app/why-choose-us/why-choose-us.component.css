@@ -17,3 +17,47 @@ h2 {
 .header p {
     color: #d2d2d2
 }
+
+.body {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-width: 960px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.row p {
+    flex: 1;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+.row img {
+    width: 450px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+hr {
+    margin: 40px 0;
+    border: none;
+    border-top: 1px solid #eee;
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .row img {
+        width: 100%;
+    }
+}
