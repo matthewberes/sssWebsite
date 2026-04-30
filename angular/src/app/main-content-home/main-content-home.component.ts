@@ -12,6 +12,7 @@ export class MainContentHomeComponent {
 
   onClick(param?: string) {
     this.router.navigate([param]);
+    window.scrollTo(0, 0);
   }
 
 }

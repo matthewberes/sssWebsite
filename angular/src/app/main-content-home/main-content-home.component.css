@@ -17,9 +17,9 @@
 }
 
 .service-box {
-    width: 40%;
+    width: 48%;
     height: 325px;
-    margin: 20px;
+    margin: 20px 0;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
@@ -102,7 +102,7 @@
     font-size: 30pt;
     text-align: center;
     color: #f4f3f2;
-    width: 850px;
+    width: 900px;
     text-shadow: 2px 2px rgb(35, 43, 43, 1);
 }
 

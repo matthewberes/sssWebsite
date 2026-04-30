@@ -81,25 +81,31 @@
   color: red;
 }
 
-.fa {
+.fab {
   padding: 10px;
   font-size: 20px;
   width: 30px;
   text-align: center;
   text-decoration: none;
+  transition: all 0.15s ease;
 }
 
-.fa:hover {
+.fab:hover {
   opacity: 0.7;
 }
 
-.fa-facebook {
+.fa-facebook-f {
   background: #3B5998;
   color: white;
 }
 
-.fa-linkedin {
-  background: #007bb5;
+.fa-instagram {
+  background: #E4405F;
+  color: white;
+}
+
+.fa-tiktok {
+  background: #000;
   color: white;
 }
 
