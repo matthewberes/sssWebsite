@@ -12,11 +12,13 @@ import { ElectricalComponent } from './electrical/electrical.component';
 import { RoofingComponent } from './roofing/roofing.component';
 import { CommunityInvolvementComponent } from './community-involvement/community-involvement.component';
 import { HvacComponent } from './hvac/hvac.component';
+import { ServicesComponent } from './services/services.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: 'home', component: MainContentHomeComponent, title: "Sand Star Services | People Taking Care of People" },
     { path: 'assessment-request', component: MainContentFormComponent, title: "Schedule an Onsite Assessment | Sand Star Services" },
+    { path: 'services', component: ServicesComponent, title: "Services | Sand Star Services" },
     { path: 'about-us', component: MainContentAboutComponent, title: "About Us | Sand Star Services" },
     { path: 'contact', component: MainContentContactComponent, title: "Contact | Sand Star Services" },
     { path: "commercial", component: CommercialComponent, title: "Commercial | Sand Star Services" },
