@@ -2,22 +2,43 @@
     <p>Where People Taking Care of People Means Something</p>
 </div>
 
-<div class="service-types">
-    <div class="service-box residential" (click)="onClick('residential')">
-        <span class="service-title">Residential</span>
-    </div>
-    <div class="service-box commercial" (click)="onClick('commercial')">
-        <span class="service-title">Commercial</span>
-    </div>
-</div>
-
 <div class="parallax after">
     <p class="parallaxText">Servicing Galveston Texas and Surrounding Areas</p>
     <div style="flex-basis: 100%;"></div>
     <button (click)="onClick('assessment-request')">Schedule an Onsite Assessment</button>
 </div>
 
-<div class="circleButtons">
+<div class="property-types">
+    <div class="property-box residential" (click)="onClick('residential')">
+        <span class="property-title">Residential</span>
+    </div>
+    <div class="property-box commercial" (click)="onClick('commercial')">
+        <span class="property-title">Commercial</span>
+    </div>
+    <div class="service-cards-container">
+        <div class="header">
+            <h2>Our Services</h2>
+            <p>Take a look at what Sand Star has to offer</p>
+        </div>
+        <div class="service-card hvac" (click)="onClick('hvac')">
+            <span>HVAC</span>
+        </div>
+        <div class="service-card roofing" (click)="onClick('roofing')">
+            <span>Roofing</span>
+        </div>
+        <div class="service-card electrical" (click)="onClick('electrical')">
+            <span>Electrical</span>
+        </div>
+        <div class="service-card repair" (click)="onClick('repairs')">
+            <span>Repairs</span>
+        </div>
+        <div class="service-card remodel" (click)="onClick('remodels')">
+            <span>Remodels</span>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="circleButtons">
     <p style="margin-top: 0; padding-top: 50px;">Our Services</p>
     <div style="display: grid; grid-template-columns: auto auto auto auto auto; justify-content: center;">
 
@@ -38,7 +59,7 @@
         </div>
 
     </div>
-</div>
+</div> -->
 
 <!-- <div class="parallax before desktop"></div> -->
 
