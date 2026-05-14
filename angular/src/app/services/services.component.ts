@@ -12,6 +12,7 @@ export class ServicesComponent {
 
   onClick(service: string) {
     this.router.navigate([service]);
+    window.scrollTo(0, 0);
   }
 
 }
